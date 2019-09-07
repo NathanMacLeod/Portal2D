@@ -65,7 +65,7 @@ public class UserInterface extends javax.swing.JFrame {
         buttonSet.add(new Button(60, 200, 50, 230, "Play"));
         buttonSet.get(0).assignAction(new ButtonAction() {
             public void performAction() {
-                PhysicsPanel p = new PhysicsPanel(10);
+                PhysicsPanel p = new PhysicsPanel(1);
                 dispose();
             }
         });
